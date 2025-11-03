@@ -1,16 +1,31 @@
 import java.util.ArrayList;
-import java.util.List;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
         Cuenta cuenta1 = new Cuenta(1, 100, 4.5, null);
-        System.out.println("Tu saldo ahora por retirar 2500 es: " +
-                cuenta1.withdraw(2500));
-        System.out.println("Tu saldo ahora por depositar 3000 es: " +
-                cuenta1.deposit(3000));
+        Cuenta cuenta2 = new Cuenta(2, 100, 4.5, null);
+        Cuenta cuenta3 = new Cuenta(3, 100, 4.5, null);
+        Cuenta cuenta4 = new Cuenta(4, 100, 4.5, null);
+        Cuenta cuenta5 = new Cuenta(5, 100, 4.5, null);
+        Cuenta cuenta6 = new Cuenta(6, 100, 4.5, null);
+        Cuenta cuenta7 = new Cuenta(7, 100, 4.5, null);
+        Cuenta cuenta8 = new Cuenta(8, 100, 4.5, null);
+        Cuenta cuenta9 = new Cuenta(9, 100, 4.5, null);
+        Cuenta cuenta10 = new Cuenta(10, 100, 4.5, null);
 
         ArrayList<Cuenta> cuentas = new ArrayList<>();
+
+        cuentas.add(cuenta1);
+        cuentas.add(cuenta2);
+        cuentas.add(cuenta3);
+        cuentas.add(cuenta4);
+        cuentas.add(cuenta5);
+        cuentas.add(cuenta6);
+        cuentas.add(cuenta7);
+        cuentas.add(cuenta8);
+        cuentas.add(cuenta9);
+        cuentas.add(cuenta10);
 
     }
 }
